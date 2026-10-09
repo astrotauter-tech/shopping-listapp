@@ -18,12 +18,15 @@
       <button type="submit">추가</button>
     </form>
 
+    <p id="status" class="status" role="status" hidden></p>
+
     <ul id="list" class="list"></ul>
     <p id="empty" class="empty">아직 아이템이 없어요. 위에서 추가해 보세요!</p>
 
     <button id="clear-done" class="clear-done" type="button">구매 완료 항목 지우기</button>
   </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.1/dist/umd/supabase.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

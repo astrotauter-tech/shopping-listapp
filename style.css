@@ -93,6 +93,10 @@ h1 { margin: 0 0 4px; font-size: 1.6rem; }
 
 .item .delete:hover { color: var(--danger); background: #fff0f2; }
 
+.status { margin: 0 0 8px; color: var(--muted); font-size: 0.9rem; text-align: center; }
+
+.status.error { color: var(--danger); }
+
 .empty { text-align: center; color: var(--muted); padding: 24px 0; }
 
 .clear-done {
